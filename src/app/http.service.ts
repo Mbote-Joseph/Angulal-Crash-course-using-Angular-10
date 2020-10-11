@@ -10,4 +10,5 @@ export class HttpService {
   getBeer() {
     return this.http.get('https://api.openbrewerydb.org/breweries')
   }
+  
 }
